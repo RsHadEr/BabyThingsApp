@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_id"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:padding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tile"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EnterItem"
+                android:textSize="18sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/babyItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tile"
+                android:hint="@string/hintItem"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/itemQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/babyItem"
+                android:inputType="number"
+                android:hint="@string/itemQuantity"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/itemColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemQuantity"
+                android:hint="@string/itemcolor"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/itemSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@id/itemColor"
+                android:hint="@string/hintSize"
+                android:minHeight="48dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saveValue"
+                android:id="@+id/save_button"
+                android:layout_below="@id/itemSize"/>
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

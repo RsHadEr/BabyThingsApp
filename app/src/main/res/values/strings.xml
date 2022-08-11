@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BABYThings</string>
+    <string name="EnterItem">EnterItem</string>
+    <string name="hintItem">item</string>
+    <string name="itemQuantity">Quantity</string>
+    <string name="itemcolor">Color</string>
+    <string name="hintSize">Size</string>
+    <string name="saveValue">Save</string>
+    <string name="editvalue">editvalue</string>
+    <string name="deletevalue">DeleteValue</string>
+    <string name="update_text">update</string>
+    <string name="edit_time">Edit</string>
+</resources>
